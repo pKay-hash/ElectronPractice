@@ -1,0 +1,31 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+}
+
+.titleOfPage {
+  color: #00f124; /*green*/
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 20px;
+  border-bottom: 4px solid #ddd;
+  background: linear-gradient(90deg, #5fff77, #c2ffcb);
+  -webkit-background-clip: text;
+  color: transparent
+}
+
+button {
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
