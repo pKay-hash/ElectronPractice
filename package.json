@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "electron": "^31.4.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
   }
 }
