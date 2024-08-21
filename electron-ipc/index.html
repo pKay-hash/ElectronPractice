@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>IPC Renderer Experience</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+
+  </head>
+  <body>
+    <h1>Versions:</h1>
+    <h3 id="chrome">Chrome: </h3>
+    <h3 id="node">Node: </h3>
+    <h3 id="electron">Electron: </h3>
+    <input type="text" id="input-area" placeholder="Enter URL">
+    <button id="url-submit">Submit</button>
+    <br/><br/>
+    <button id="file-select">Select File</button>
+    <p id="file-path">File Path:</p>
+    <script type="module" src="/src/renderer.js"></script>
+  </body>
+</html>
