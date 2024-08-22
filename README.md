@@ -25,14 +25,15 @@ An app that acts as a timer, that can be overlayed (Do CommandOrControl+6 on key
 run using 'npm run dev'
 Is packaged into an executable, double click to run dist/win-unpacked/timer-app-1.0.0-setup.exe to setup the app, and run through the shortcut automatically created on your desktop.
 
-## Ideas:
-
 ### 6. super-browser
 An app that works like a browser that always stays on top of other elements on your screen. Built using Electron Forge and the Vite plugin.
 Run using 'npm start'
 
-### 7. Type-Racer
-An app that works like type racer to scan wpm depending on amount of characters pressed
+## Ideas:
+
+### 7. Type-Racer (In Progress)
+An app that works like type racer to scan wpm calculated on (amount of characters pressed correctly / 5).
+Run using 'npm run dev'
 
 ### 8. Spotify Monthly Listener Game
 An app that works like Higher Or Lower game, but shows artists and their monthly listeners.
